@@ -22,3 +22,6 @@ def login(request):
 
 def enterPassword(request):
     return render(request, 'dashboard/enterPassword.html')
+
+def forgotPassword(request):
+    return render(request, 'dashboard/forgot_password.html')

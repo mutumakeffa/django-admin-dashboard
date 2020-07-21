@@ -10,5 +10,6 @@ urlpatterns = [
     path('register/', views.register, name='register'),
     path('login/', views.login, name='login'),
     path('password/', views.enterPassword, name='enterPassword'),
+    path('reset-password/', views.forgotPassword, name='forgotPassword'),
 ]
    
