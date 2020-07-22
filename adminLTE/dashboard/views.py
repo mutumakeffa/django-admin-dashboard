@@ -25,3 +25,9 @@ def enterPassword(request):
 
 def forgotPassword(request):
     return render(request, 'dashboard/forgot_password.html')
+
+def landing(request):
+    return render(request, 'dashboard/landing.html')
+
+def confirm(request):
+    return render(request, 'dashboard/confirmation.html')
